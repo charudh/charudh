@@ -20,16 +20,16 @@ rectangle.draw(myturtle)
 
 
 # get point from user
-user_point = Geometry_game.GraphicPoint(float(input("Guess X : ")),float(input("Guess Y : ")))
+#user_point = Geometry_game.GraphicPoint(float(input("Guess X : ")),float(input("Guess Y : ")))
 
 # print the game result
-if user_point.falls_in_rectangle(rectangle):
-    print("Your point is inside the rectangle")
-else:
-    print("Your point is outside the rectangle")
+#if user_point.falls_in_rectangle(rectangle):
+#    print("Your point is inside the rectangle")
+#else:
+#    print("Your point is outside the rectangle")
 
 print("Area of rectangle : ", rectangle.area())
 
-user_point.draw(myturtle)
+#user_point.draw(myturtle)
 
 turtle.done()
