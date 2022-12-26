@@ -21,7 +21,7 @@ rectangle.draw(myturtle)
 
 # get point from user
 #user_point = Geometry_game.GraphicPoint(float(input("Guess X : ")),float(input("Guess Y : ")))
-user_point = Geometry_game.GraphicPoint(20.0,40.0)
+user_point = Geometry_game.GraphicPoint(150.0,200.0)
 
 # print the game result
 if user_point.falls_in_rectangle(rectangle):
